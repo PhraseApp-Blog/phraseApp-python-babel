@@ -1,0 +1,42 @@
+# Italian translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-08-29 10:32+0100\n"
+"PO-Revision-Date: 2018-08-29 10:33+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: it\n"
+"Language-Team: it <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: main.py:4
+msgid "This is a translatable string."
+msgstr ""
+
+#: templates/index.html:1
+#, python-format
+msgid "title"
+msgstr "Titolo"
+
+#: templates/index.html:2
+#, python-format
+msgid ""
+"\n"
+"  There is %(count)s %(name)s server.\n"
+"  "
+msgid_plural ""
+"\n"
+"  There are %(count)s %(name)s servers.\n"
+"  "
+msgstr[0] "C'è %(count)s %(name)s server."
+msgstr[1] "Esistono %(count)s %(name)s servers."
+
